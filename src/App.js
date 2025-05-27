@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Chamalka Test Demo
+          Chamalka Test App Updated
         </p>
         <a
           className="App-link"
