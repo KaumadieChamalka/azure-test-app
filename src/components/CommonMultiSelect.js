@@ -1,6 +1,6 @@
 import React from 'react';
 import { Form, Select } from 'antd';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 
 const CommonMultiSelect = ({
   name,
@@ -32,21 +32,21 @@ const CommonMultiSelect = ({
   );
 };
 
-CommonMultiSelect.propTypes = {
-  name: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
-  placeholder: PropTypes.string,
-  required: PropTypes.bool,
-  rules: PropTypes.array,
-  disabled: PropTypes.bool,
-  options: PropTypes.arrayOf(
-    PropTypes.shape({
-      value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
-      label: PropTypes.string.isRequired,
-    })
-  ),
-  mode: PropTypes.string,
-  maxTagCount: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-};
+// CommonMultiSelect.propTypes = {
+//   name: PropTypes.string.isRequired,
+//   label: PropTypes.string.isRequired,
+//   placeholder: PropTypes.string,
+//   required: PropTypes.bool,
+//   rules: PropTypes.array,
+//   disabled: PropTypes.bool,
+//   options: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+//       label: PropTypes.string.isRequired,
+//     })
+//   ),
+//   mode: PropTypes.string,
+//   maxTagCount: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+// };
 
 export default CommonMultiSelect; 

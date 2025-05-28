@@ -1,6 +1,6 @@
 import React from 'react';
 import { Empty, Table } from 'antd';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 
 const CommonTable = ({
   columns,
@@ -23,18 +23,18 @@ const CommonTable = ({
   );
 };
 
-CommonTable.propTypes = {
-  columns: PropTypes.arrayOf(PropTypes.object).isRequired,
-  dataSource: PropTypes.arrayOf(PropTypes.object).isRequired,
-  pagination: PropTypes.oneOfType([
-    PropTypes.object,
-    PropTypes.bool
-  ]),
-  loading: PropTypes.bool,
-  rowKey: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.func
-  ])
-};
+// CommonTable.propTypes = {
+//   columns: PropTypes.arrayOf(PropTypes.object).isRequired,
+//   dataSource: PropTypes.arrayOf(PropTypes.object).isRequired,
+//   pagination: PropTypes.oneOfType([
+//     PropTypes.object,
+//     PropTypes.bool
+//   ]),
+//   loading: PropTypes.bool,
+//   rowKey: PropTypes.oneOfType([
+//     PropTypes.string,
+//     PropTypes.func
+//   ])
+// };
 
 export default CommonTable; 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Form, Input } from 'antd';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 
 const CommonTextArea = ({
   name,
@@ -33,14 +33,14 @@ const CommonTextArea = ({
   );
 };
 
-CommonTextArea.propTypes = {
-  name: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
-  placeholder: PropTypes.string,
-  required: PropTypes.bool,
-  rules: PropTypes.array,
-  disabled: PropTypes.bool,
-  rows: PropTypes.number,
-};
+// CommonTextArea.propTypes = {
+//   name: PropTypes.string.isRequired,
+//   label: PropTypes.string.isRequired,
+//   placeholder: PropTypes.string,
+//   required: PropTypes.bool,
+//   rules: PropTypes.array,
+//   disabled: PropTypes.bool,
+//   rows: PropTypes.number,
+// };
 
 export default CommonTextArea; 
