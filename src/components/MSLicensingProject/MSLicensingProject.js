@@ -15,7 +15,7 @@ const MSLicensingProject = () => {
     <Form form={form} layout="vertical">
         <Row gutter={16}>
         <Col span={12}>
-            <CommonTextInput name="projectName" label="RFP Project Name" required placeholder="Project Name" />
+            <CommonTextInput name="projectName" label="MS Licensing Project Name" required placeholder="Project Name" />
         </Col>
         <Col span={12}>
             <CommonMultiSelect

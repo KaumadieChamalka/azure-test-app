@@ -5,6 +5,7 @@ import CommonButton from '../CommonButton';
 import CommonTable from '../CommonTable';
 import MSLicensingFileUploadModal from '../MSLicensingFileUploadModal/MSLicensingFileUploadModal';
 import CommonModal from '../CommonModal';
+import { msLicensingService } from '../../services/msLicensingService';
 
 const fileTypeIcon = (type) => {
   if (type === 'word') return <FileWordOutlined style={{ color: '#2B579A', fontSize: 22 }} />;
@@ -53,6 +54,16 @@ const MSLicensingFiles = () => {
   }
 
   const handleRemoveFile = async (fileId) => {
+    // try {
+    //   await msLicensingService.deleteFile(fileId);
+    //   // Handle success (e.g., show success message, update UI)
+    //   setFileData(prevData => prevData.filter(item => item.id !== fileId));
+    //   setFileId("");
+    //   setIsDeletedModalOpen(false);
+    // } catch (error) {
+    //   // Handle error (e.g., show error message)
+    //   console.error('Error deleting file:', error);
+    // }
     setFileData(prevData => prevData.filter(item => item.id !== fileId));
     setFileId("");
     setIsDeletedModalOpen(false);
