@@ -1,6 +1,6 @@
 import React from 'react';
 import { Modal } from 'antd';
-//import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import CommonButton from './CommonButton';
 
 const CommonModal = ({
@@ -41,18 +41,18 @@ const CommonModal = ({
   );
 };
 
-// CommonModal.propTypes = {
-//   title: PropTypes.string.isRequired,
-//   open: PropTypes.bool.isRequired,
-//   onOk: PropTypes.func.isRequired,
-//   onCancel: PropTypes.func.isRequired,
-//   children: PropTypes.node.isRequired,
-//   width: PropTypes.number,
-//   okText: PropTypes.string,
-//   cancelText: PropTypes.string,
-//   okButtonProps: PropTypes.object,
-//   cancelButtonProps: PropTypes.object,
-//   footer: PropTypes.node,
-// };
+CommonModal.propTypes = {
+  title: PropTypes.string.isRequired,
+  open: PropTypes.bool.isRequired,
+  onOk: PropTypes.func.isRequired,
+  onCancel: PropTypes.func.isRequired,
+  children: PropTypes.node.isRequired,
+  width: PropTypes.number,
+  okText: PropTypes.string,
+  cancelText: PropTypes.string,
+  okButtonProps: PropTypes.object,
+  cancelButtonProps: PropTypes.object,
+  footer: PropTypes.node,
+};
 
 export default CommonModal; 
