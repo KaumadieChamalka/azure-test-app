@@ -5,7 +5,7 @@ import CommonButton from '../CommonButton';
 import CommonTable from '../CommonTable';
 import MSLicensingFileUploadModal from '../MSLicensingFileUploadModal/MSLicensingFileUploadModal';
 import CommonModal from '../CommonModal';
-import { msLicensingService } from '../../services/msLicensingService';
+//import { msLicensingService } from '../../services/msLicensingService';
 
 const fileTypeIcon = (type) => {
   if (type === 'word') return <FileWordOutlined style={{ color: '#2B579A', fontSize: 22 }} />;
