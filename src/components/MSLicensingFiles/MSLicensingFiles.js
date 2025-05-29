@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-import { Card, Form, Modal} from 'antd';
+import { Card, Form } from 'antd';
 import { PlusOutlined, DeleteOutlined, FileWordOutlined, FileExcelOutlined } from '@ant-design/icons';
 import CommonButton from '../CommonButton';
 import CommonTable from '../CommonTable';
