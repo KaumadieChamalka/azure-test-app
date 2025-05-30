@@ -125,6 +125,7 @@ const MSLicensingFiles = () => {
         <CommonTable
           columns={columns}
           dataSource={fileData}
+          size="small"
         />
       </Card>
       <MSLicensingFileUploadModal
